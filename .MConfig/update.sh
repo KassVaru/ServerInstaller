@@ -20,8 +20,8 @@ if [ "$INS" == "Spigot" ] || [ "$INS" == "spigot" ] || [ "$INS" == "S" ] || [ "$
 else
     if [ "$INS" == "Bukkit" ] || [ "$INS" == "bukkit" ] || [ "$INS" == "B" ] || [ "$INS" == "b" ] || [ "$INS" == "bUKKIT" ]; then
         $CLEAR
-        echo "Chose: Spigot"
-        echo "Preparing Spigot files..."
+        echo "Chose: Bukkit"
+        echo "Preparing Bukkit files..."
         mv Server/craftbukkit-*.jar ./bukkit.jar
         rm -Rf Server/*
         mv bukkit.jar Server/
