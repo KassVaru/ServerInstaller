@@ -18,7 +18,7 @@ echo
 echo "Do you want to enable flying on your server? [true/false]"
 read FLY
 echo
-echo "Enable to spawn NPCs? [true/flase]"
+echo "Enable to spawn NPCs? [true/false]"
 read NPC
 echo
 echo "Enable white-list? [true/false]"
