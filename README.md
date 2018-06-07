@@ -47,6 +47,11 @@ And finally, you can run program:
 
 ## Versions
 
+Update 1.1
+* Added RAM config
+* Added Show option to open server terminal
+* Fixed language mistakes
+
 Update 1.0
 * Added start/stop/restart scripts
 * Added configuration option

@@ -84,3 +84,4 @@ $SCREEN -p 0 -S MC -X eval 'stuff "stop"\015'
 echo
 echo "If you want to reconfigure server please type: config"
 echo "THE END" > .MConfig/end.dt
+echo

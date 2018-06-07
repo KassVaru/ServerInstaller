@@ -9,7 +9,7 @@ read INS
 
 if [ "$INS" == "Spigot" ] || [ "$INS" == "spigot" ] || [ "$INS" == "S" ] || [ "$INS" == "s" ] || [ "$INS" == "sPIGOT" ]; then
     $CLEAR
-    echo "Chose: Spigot"
+    echo "Selected: Spigot"
     echo "Preparing Spigot files..."
     mv Server/spigot-*.jar ./spigot.jar
     rm -Rf Server/*
@@ -20,7 +20,7 @@ if [ "$INS" == "Spigot" ] || [ "$INS" == "spigot" ] || [ "$INS" == "S" ] || [ "$
 else
     if [ "$INS" == "Bukkit" ] || [ "$INS" == "bukkit" ] || [ "$INS" == "B" ] || [ "$INS" == "b" ] || [ "$INS" == "bUKKIT" ]; then
         $CLEAR
-        echo "Chose: Bukkit"
+        echo "Selected: Bukkit"
         echo "Preparing Bukkit files..."
         mv Server/craftbukkit-*.jar ./bukkit.jar
         rm -Rf Server/*
